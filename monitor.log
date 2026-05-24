@@ -1,0 +1,80 @@
+=========================================
+     CLOUD SERVER MONITORING SYSTEM      
+=========================================
+Date & Time: Thu Mar 19 01:11:54 UTC 2026
+Hostname: LAPTOP-1HQ4AE4B
+Uptime:
+ 01:11:54 up  1:56,  0 user,  load average: 0.00, 0.03, 0.00
+-----------------------------------------
+CPU Usage:
+%Cpu(s):  0.0 us,  2.4 sy,  0.0 ni, 97.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+-----------------------------------------
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           9.2Gi       251Mi       9.1Gi        68Ki        91Mi       9.0Gi
+Swap:          3.0Gi          0B       3.0Gi
+-----------------------------------------
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.7G  237G   1% /
+tmpfs           4.7G     0  4.7G   0% /mnt/wsl
+tools           459G  156G  303G  34% /init
+none            4.7G  4.0K  4.7G   1% /run
+none            4.7G     0  4.7G   0% /run/lock
+none            4.7G     0  4.7G   0% /run/shm
+none            4.7G     0  4.7G   0% /run/user
+tmpfs           4.7G     0  4.7G   0% /sys/fs/cgroup
+drivers         459G  156G  303G  34% /usr/lib/wsl/drivers
+lib             459G  156G  303G  34% /usr/lib/wsl/lib
+C:\             459G  156G  303G  34% /mnt/c
+D:\              15G   14G  1.8G  89% /mnt/d
+E:\             230G   51G  179G  23% /mnt/e
+F:\             228G  393M  228G   1% /mnt/f
+-----------------------------------------
+Logged in Users:
+-----------------------------------------
+Top 5 Processes:
+  PID  PPID CMD                         %MEM %CPU
+   12    11 -bash                        0.0  0.0
+   11    10 /init                        0.0  0.0
+    1     0 /init                        0.0  0.0
+   10     1 /init                        0.0  0.0
+   89    12 /bin/bash ./monitor.sh       0.0  0.0
+-----------------------------------------
+Network Info:
+        inet 172.19.42.104  netmask 255.255.240.0  broadcast 172.19.47.255
+        inet6 fe80::215:5dff:feff:fc  prefixlen 64  scopeid 0x20<link>
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+-----------------------------------------
+=========================================
+===== SYSTEM MONITOR =====
+Thu Mar 19 01:11:54 UTC 2026
+
+CPU Info:
+Model name:                      Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           9.2Gi       252Mi       9.1Gi        68Ki        91Mi       9.0Gi
+Swap:          3.0Gi          0B       3.0Gi
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.7G  237G   1% /
+tmpfs           4.7G     0  4.7G   0% /mnt/wsl
+tools           459G  156G  303G  34% /init
+none            4.7G  4.0K  4.7G   1% /run
+none            4.7G     0  4.7G   0% /run/lock
+none            4.7G     0  4.7G   0% /run/shm
+none            4.7G     0  4.7G   0% /run/user
+tmpfs           4.7G     0  4.7G   0% /sys/fs/cgroup
+drivers         459G  156G  303G  34% /usr/lib/wsl/drivers
+lib             459G  156G  303G  34% /usr/lib/wsl/lib
+C:\             459G  156G  303G  34% /mnt/c
+D:\              15G   14G  1.8G  89% /mnt/d
+E:\             230G   51G  179G  23% /mnt/e
+F:\             228G  393M  228G   1% /mnt/f
+
+Uptime:
+ 01:11:54 up  1:56,  0 user,  load average: 0.00, 0.03, 0.00
