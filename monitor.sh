@@ -34,21 +34,3 @@ ifconfig | grep inet
 echo "-----------------------------------------"
 
 echo "========================================="
-echo "===== SYSTEM MONITOR ====="
-date
-echo ""
-
-echo "CPU Info:"
-lscpu | grep "Model name"
-
-echo ""
-echo "Memory Usage:"
-free -h
-
-echo ""
-echo "Disk Usage:"
-df -h
-
-echo ""
-echo "Uptime:"
-uptime
